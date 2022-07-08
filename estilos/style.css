@@ -1,5 +1,6 @@
 :root {
     --primary-color: #ff00ff;
+    --secondary-color: #6C63FF;
     --white-color: #ffffff;
     --gap: 3rem;
     --fonte-titulo: 'Montserrat', sans-serif;
@@ -28,18 +29,33 @@ p{
 }
 
 h1{
-    font-size: 4rem;
+    font-size: 3.5rem;
     text-transform: uppercase;
     color: var(--white-color);
 }
 
 .title{
     color: var(--primary-color);
+    font-size: 3.5rem ;
+}
+
+#apresentation{
+    font-size: 3rem;
+    line-height: 4.5rem;
+    
+}
+
+a{
+    text-decoration: none;
 }
 
 header{
     border-bottom: 2px solid rgb(90, 90, 90);
     position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
 }
 
 body{
@@ -63,5 +79,105 @@ body{
 
 .section{
     min-height: 100vh;
+}
+
+.menu-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+header ul li a{
+    display: block;
+    padding: 2rem;
+    font-size: 1.8rem;
+    font-family: var(--fonte-titulo);
+    color: var(--white-color);
+    position: relative;
+    
+}
+
+header ul li a::after{
+    content: '';
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    width: 0px;
+    height: 0.2rem;
+    background: var(--primary-color);
+    transition: all 150ms ease-in-out;
+    
+}
+
+header ul li a:hover::after{
+    width: 50%;
+    left: 25%;
+}
+
+.menu-spacing{
+    height: 65px ;
+}
+
+.home-content{
+    display: flex;
+    position: relative;
+    gap: var(--gap);
+    align-items: center;
+    height: 100vh;
+    top: 10rem;
+}
+
+.home-content-text{
+    display: grid;
+    flex-flow: column wrap;
+    grid-template-columns: 1fr 1.5fr;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    padding: 15px;
+    padding-top: 40px;
+    
+    
+}
+
+.links a{
+    border: 1.3px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 15px;
+    color: var(--white-color);
+    margin: 0px 30px;
+    font-family: var(--fonte-titulo);
+
+}
+
+.links a:hover{
+    color: var(--primary-color);
+    border: 1.3px solid var(--white-color);
+
+}
+
+.home-imagem{
+    
+    padding-left: 8rem;
+    
+}
+
+.home-imagem img{
+    max-width: 90%;
+    height: auto;
 }
 
