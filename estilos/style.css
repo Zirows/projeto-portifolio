@@ -49,20 +49,24 @@ a{
     text-decoration: none;
 }
 
-header{
-    border-bottom: 2px solid rgb(90, 90, 90);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-}
-
 body{
     font-family: var(--fonte-texto);
     font-size: 1.6rem;
     background-color: rgb(20, 20, 20);
 }
+
+header{
+    border-bottom: 2px solid var(--primary-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 7rem;
+    padding-top: 1.5rem;
+}
+
+
 
 #logo{
     color: #ff00ff;
@@ -72,13 +76,9 @@ body{
 }
 
 .main-content{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: var(--gap);
-}
-
-.section{
-    min-height: 100vh;
 }
 
 .menu-content{
@@ -131,16 +131,17 @@ header ul li a:hover::after{
     position: relative;
     gap: var(--gap);
     align-items: center;
-    height: 100vh;
-    top: 10rem;
+    height: 90vh;
+
 }
 
 .home-content-text{
     display: grid;
     flex-flow: column wrap;
-    grid-template-columns: 1fr 1.5fr;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     text-transform: uppercase;
+    
 }
 
 
@@ -181,3 +182,69 @@ header ul li a:hover::after{
     height: auto;
 }
 
+.title-secondary{
+    font-family: var(--fonte-titulo);
+    color: var(--white-color);
+    text-shadow: 1px 1px 7px black;
+    font-size: 5rem;
+}
+
+.about-me{
+    border-top:2px solid var(--secondary-color);
+    background-image: url(../imagens/main-bg.svg);
+    padding-top: 6rem;
+    color: var(--white-color);
+}
+
+.secondary-section{
+    display: flex;
+    flex-flow:row;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.foto img{
+    max-width: 70%;
+    height: auto;
+    box-shadow: 5px 5px 2px var(--secondary-color);
+}
+
+.test{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.test p {
+    line-height: 1rem;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    
+}
+.test p a{
+    font-family: var(--fonte-texto);
+
+}
+
+.links-2{
+    color: var(--primary-color);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8rem;
+    
+    
+    
+}
+
+.links-2 a {
+    border: 1.3px solid var(--primary-color);
+    padding: 15px;
+    font-family: var(--fonte-titulo);
+    font-size: 2rem;
+    border-radius: 10px;
+    color: var(--white-color);
+}
