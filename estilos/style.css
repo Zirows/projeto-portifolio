@@ -7,55 +7,66 @@
     --fonte-texto: 'Open Sans', sans-serif;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-html{
+html {
     font-size: 62.5%;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--fonte-titulo);
     color: var(--white-color);
     padding-bottom: 3rem;
 }
 
-p{
+h2 {
+    font-family: var(--fonte-titulo);
     color: var(--white-color);
-    font-family: var(--fonte-texto);
-    
+    padding: 3rem;
+    text-align: center;
 }
 
-h1{
+p {
+    color: var(--white-color);
+    font-family: var(--fonte-texto);
+
+}
+
+h1 {
     font-size: 3.5rem;
     text-transform: uppercase;
     color: var(--white-color);
 }
 
-.title{
+.title {
     color: var(--primary-color);
-    font-size: 3.5rem ;
+    font-size: 3.5rem;
 }
 
-#apresentation{
+#apresentation {
     font-size: 3rem;
     line-height: 4.5rem;
-    
+
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-body{
+body {
     font-family: var(--fonte-texto);
     font-size: 1.6rem;
     background-color: rgb(20, 20, 20);
 }
 
-header{
+header {
     border-bottom: 2px solid var(--primary-color);
     position: fixed;
     top: 0;
@@ -68,20 +79,21 @@ header{
 
 
 
-#logo{
+#logo {
     color: #ff00ff;
     text-decoration: none;
     font-family: var(--fonte-titulo);
     font-size: 4rem;
 }
 
-.main-content{
+.main-content {
     max-width: 1000px;
     margin: 0 auto;
     padding: var(--gap);
+
 }
 
-.menu-content{
+.menu-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -89,23 +101,23 @@ header{
     padding-bottom: 0;
 }
 
-header ul{
+header ul {
     list-style: none;
     display: flex;
-    
+
 }
 
-header ul li a{
+header ul li a {
     display: block;
     padding: 2rem;
     font-size: 1.8rem;
     font-family: var(--fonte-titulo);
     color: var(--white-color);
     position: relative;
-    
+
 }
 
-header ul li a::after{
+header ul li a::after {
     content: '';
     position: absolute;
     bottom: 1rem;
@@ -114,19 +126,19 @@ header ul li a::after{
     height: 0.2rem;
     background: var(--primary-color);
     transition: all 150ms ease-in-out;
-    
+
 }
 
-header ul li a:hover::after{
+header ul li a:hover::after {
     width: 50%;
     left: 25%;
 }
 
-.menu-spacing{
-    height: 65px ;
+.menu-spacing {
+    height: 65px;
 }
 
-.home-content{
+.home-content {
     display: flex;
     position: relative;
     gap: var(--gap);
@@ -135,27 +147,27 @@ header ul li a:hover::after{
 
 }
 
-.home-content-text{
+.home-content-text {
     display: grid;
     flex-flow: column wrap;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     text-transform: uppercase;
-    
+
 }
 
 
-.links{
+.links {
     display: flex;
     justify-content: space-between;
     font-size: 2rem;
     padding: 15px;
     padding-top: 40px;
-    
-    
+
+
 }
 
-.links a{
+.links a {
     border: 1.3px solid var(--primary-color);
     border-radius: 10px;
     padding: 15px;
@@ -165,52 +177,52 @@ header ul li a:hover::after{
 
 }
 
-.links a:hover{
+.links a:hover {
     color: var(--primary-color);
     border: 1.3px solid var(--white-color);
 
 }
 
-.home-imagem{
-    
+.home-imagem {
+
     padding-left: 8rem;
-    
+
 }
 
-.home-imagem img{
+.home-imagem img {
     max-width: 90%;
     height: auto;
 }
 
-.title-secondary{
+.title-secondary {
     font-family: var(--fonte-titulo);
     color: var(--white-color);
     text-shadow: 1px 1px 7px black;
     font-size: 5rem;
 }
 
-.about-me{
-    border-top:2px solid var(--secondary-color);
-    background-image: url(../imagens/main-bg.svg);
+.about-me {
+    border-top: 2px solid var(--secondary-color);
+    background-image: url(../imagens/main-bg.png );
     padding-top: 6rem;
     color: var(--white-color);
 }
 
-.secondary-section{
+.secondary-section {
     display: flex;
-    flex-flow:row;
+    flex-flow: row;
     justify-content: center;
     align-items: center;
     height: 80vh;
 }
 
-.foto img{
+.foto img {
     max-width: 70%;
     height: auto;
     box-shadow: 5px 5px 2px var(--secondary-color);
 }
 
-.test{
+.test {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -221,23 +233,24 @@ header ul li a:hover::after{
     line-height: 1rem;
     font-size: 3rem;
     letter-spacing: 3px;
-    
+
 }
-.test p a{
+
+.test p a {
     font-family: var(--fonte-texto);
 
 }
 
-.links-2{
+.links-2 {
     color: var(--primary-color);
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
     padding-top: 8rem;
-    
-    
-    
+
+
+
 }
 
 .links-2 a {
@@ -247,4 +260,21 @@ header ul li a:hover::after{
     font-size: 2rem;
     border-radius: 10px;
     color: var(--white-color);
+}
+
+.project-content {
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+#project {
+    border-top: 2px solid #6C63FF;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    gap: var(--gap);
 }
