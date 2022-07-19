@@ -267,6 +267,12 @@ header ul li a:hover::after {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
+
+}
+
+.project-content p {
+    text-align: center;
+    color: dimgrey;
 }
 
 #project {
@@ -286,14 +292,14 @@ header ul li a:hover::after {
     margin-top: 5rem;
     box-shadow: 0.5px 0.5px 7px var(--primary-color);
     position: relative;
+    max-width: 1000px;
 }
 
 .project-item img{
-    width: 300px;
-    height: 160px;
+    width: 100%;
     border-radius: 15px;
-    margin: 12px;
-   
+    height: 150px;
+    box-shadow: 1px 1px 1px var(--secondary-color);
 }
 
 .description{
@@ -304,5 +310,28 @@ header ul li a:hover::after {
 
 .project-item h3{
     text-align: center;
-    font-size: 2.2rem
+    font-size: 2rem;
+}
+
+.project-item p{
+    padding-top: 15px;
+    color: var(--white-color);
+}
+
+#next{
+    border: 1px solid var(--primary-color);
+    color: var(--white-color);
+    border-radius: 5px;
+    padding: 0px 8px;
+}
+
+.ability-content{
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+#habilidades{
+    background-color: rgb(24, 23, 23);
 }
