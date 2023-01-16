@@ -75,6 +75,7 @@ header {
     width: 100%;
     height: 7rem;
     padding-top: 1.5rem;
+    background-color: rgb(20, 20, 20);
 }
 
 
@@ -209,6 +210,8 @@ header ul li a:hover::after {
     
 }
 
+
+
 .secondary-section {
     display: flex;
     flex-flow: row;
@@ -250,8 +253,6 @@ header ul li a:hover::after {
     align-items: center;
     padding-top: 8rem;
 
-
-
 }
 
 .links-2 a {
@@ -262,6 +263,16 @@ header ul li a:hover::after {
     border-radius: 10px;
     color: var(--white-color);
 }
+
+.links-2 a:hover{
+    border: 1.3px solid var(--white-color);
+    padding: 15px;
+    font-family: var(--fonte-titulo);
+    font-size: 2rem;
+    border-radius: 10px;
+    color: var(--primary-color);
+}
+
 
 .project-content {
     min-height: 100vh;
@@ -277,7 +288,8 @@ header ul li a:hover::after {
 }
 
 #project {
-    border-top: 2px solid #6C63FF;
+    border-top: 2px solid var(--secondary-color);
+    background-color: rgb(34, 34, 34);
 }
 
 .grid{
@@ -294,7 +306,9 @@ header ul li a:hover::after {
     box-shadow: 0.5px 0.5px 7px var(--primary-color);
     position: relative;
     max-width: 1000px;
+    
 }
+
 
 .project-item img{
     width: 100%;
@@ -302,6 +316,14 @@ header ul li a:hover::after {
     height: 150px;
     box-shadow: 1px 1px 1px var(--secondary-color);
 }
+
+.project-item img:hover{
+    width: 100%;
+    border-radius: 15px;
+    height: 150px;
+    box-shadow: 1px 1px 1px blue;
+}
+
 
 .description{
     padding: 0px 20px 0px 20px;
@@ -335,4 +357,54 @@ header ul li a:hover::after {
 
 #habilidades{
     background-color: rgb(24, 23, 23);
+}
+
+#skills{
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    border-top: 1px solid var(--secondary-color);
+}
+
+.card-item{
+    border: 1px solid var(--primary-color);
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    color: var(--white-color);
+}
+
+.card-item a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.card-item a:hover{
+    color: var(--secondary-color);
+    font-weight: bolder;
+}
+
+footer{
+    background-color: rgb(37, 36, 36);
+    border-top: 1px solid var(--primary-color);
+    height: 10vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+footer p{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+footer a:hover{
+    color: gray;
+    bottom: 2em;
 }
