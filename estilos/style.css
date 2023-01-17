@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
 :root {
     --primary-color: #ff00ff;
     --secondary-color: #6C63FF;
@@ -5,7 +8,9 @@
     --gap: 3rem;
     --fonte-titulo: 'Montserrat', sans-serif;
     --fonte-texto: 'Open Sans', sans-serif;
+    --font-texto2: 'Amatic SC', cursive;
 }
+
 
 * {
     margin: 0;
@@ -36,7 +41,21 @@ h2 {
 p {
     color: var(--white-color);
     font-family: var(--fonte-texto);
+}
 
+.font-cur{
+    font-family: var(--font-texto2);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+
+.font-cur2{
+    font-family: var(--font-texto2);
+    font-weight: 700;
+    font-size: 43px;
+    color: #ffffff;
 }
 
 h1 {
@@ -183,6 +202,8 @@ header ul li a:hover::after {
 
 }
 
+
+
 .home-imagem {
 
     padding-left: 8rem;
@@ -199,6 +220,12 @@ header ul li a:hover::after {
     color: var(--white-color);
     text-shadow: 1px 1px 7px black;
     font-size: 5rem;
+}
+
+#about{
+    background-color: rgba(0, 0, 0, 0.315);
+    padding: 20px;
+    border-radius: 30px;
 }
 
 .about-me {
@@ -219,7 +246,7 @@ header ul li a:hover::after {
 }
 
 .foto img {
-    max-width: 70%;
+    max-width: 90%;
     height: auto;
     box-shadow: 5px 5px 2px var(--secondary-color);
 }
@@ -404,4 +431,12 @@ footer a{
 footer a:hover{
     color: gray;
     bottom: 2em;
+}
+
+#gabriel{
+    font-family: var(--font-texto2);
+    font-weight: 700;
+    font-size: 27px;
+    letter-spacing: 2px;
+    padding: 4px;
 }
