@@ -49,8 +49,6 @@ p {
     font-weight: 700;
 }
 
-
-
 .font-cur2{
     font-family: var(--font-texto2);
     font-weight: 700;
@@ -72,7 +70,6 @@ h1 {
 #apresentation {
     font-size: 3rem;
     line-height: 4.5rem;
-
 }
 
 a {
@@ -318,9 +315,8 @@ header ul li a:hover::after {
 }
 
 .grid{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr) ;
-    gap: var(--gap);
+    display: flex;
+    justify-content: space-around;
 }
 
 .project-item{
@@ -329,8 +325,7 @@ header ul li a:hover::after {
     padding: 25px;
     margin-top: 5rem;
     box-shadow: 0.5px 0.5px 7px var(--primary-color);
-    max-width: 1000px;
-    
+    max-width: 250px;
 }
 
 
@@ -338,20 +333,18 @@ header ul li a:hover::after {
     width: 100%;
     border-radius: 15px;
     height: 150px;
-    box-shadow: 1px 1px 1px var(--secondary-color);
 }
 
 .project-item img:hover{
-    width: 100%;
-    border-radius: 15px;
-    height: 150px;
-    box-shadow: 1px 1px 1px blue;
+    scale: 1.05;
+    transition: 100ms;
 }
 
 
 .description{
     padding: 0px 20px 0px 20px;
     font-size: 1.6rem;
+    text-align: justify;
 }
 
 
@@ -383,12 +376,77 @@ header ul li a:hover::after {
     background-color: rgb(24, 23, 23);
 }
 
-#skills{
-    height: 100vh;
+.backLine{
+    background-color: rgb(80, 80, 80);
+    height: 4px;
+    border-radius: 10px;
+    margin: 10px 10px 30px 10px;
+}
+
+.line1{
+    background: linear-gradient(to right, #f79eff, #ff00ff);
+    height: 4px;
+    width: 10%;
+    border-radius: 10px;
+}
+
+.line2{
+    background: linear-gradient(to right, #f79eff, #ff00ff);
+    height: 4px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.line3{
+    background: linear-gradient(to right, #f79eff, #ff00ff);
+    height: 4px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.line35{
+    background: linear-gradient(to right, #f79eff, #ff00ff);
+    height: 4px;
+    width: 60%;
+    border-radius: 10px;
+}
+
+.line4{
+    background: linear-gradient(to right, #f79eff, #ff00ff);
+    height: 4px;
+    width: 70%;
+    border-radius: 10px;
+}
+
+.line5{
+    background: linear-gradient(to right, #f79eff, #ff00ff);
+    height: 4px;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.skillCard{
+    width: 300px;
+}
+
+.cardsSS{
     display: flex;
-    flex-flow: column wrap;
+    justify-content: space-around;
+}
+.card-title{
+    text-align: center;
+}
+
+.skillsContent{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    border-top: 1px solid var(--secondary-color);
+}
+
+#skills{
+    border-top: 2px solid var(--secondary-color);
+    background-color: rgb(34, 34, 34)
 }
 
 .card-item{
@@ -410,7 +468,7 @@ header ul li a:hover::after {
 }
 
 footer{
-    background-color: rgb(37, 36, 36);
+    background-color: rgb(8, 8, 8);
     border-top: 1px solid var(--primary-color);
     height: 10vh;
     display: flex;
@@ -420,12 +478,13 @@ footer{
 
 footer p{
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 footer a{
     text-decoration: none;
     color: var(--primary-color);
+    font-size: 15px;
 }
 
 footer a:hover{
@@ -436,7 +495,35 @@ footer a:hover{
 #gabriel{
     font-family: var(--font-texto2);
     font-weight: 700;
-    font-size: 27px;
-    letter-spacing: 2px;
+    font-size: 25px;
+    letter-spacing: 1.3px;
     padding: 4px;
+}
+
+@media screen and (max-width: 630px) {
+
+.grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.home-imagem {
+    display: none;
+}
+
+.foto {
+    display: none;
+}
+
+#skills {
+    height: 100vh;
+    padding-top: 100px;
+}
+
+nav{
+    display: none;
+}
+
 }
