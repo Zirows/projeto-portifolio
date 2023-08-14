@@ -1,0 +1,46 @@
+.apresentation-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+.apresentation-section>div>:nth-child(2){
+    font-family: var(--font-title);
+    margin-top: 15px;
+    font-size: 3.5rem;
+}
+
+.apresentation-section>div>:nth-child(1) {
+    letter-spacing: 2px;
+}
+
+.apresentation-section>div>p {
+    font-size: 3rem;
+    color: var(--white-color);
+}
+
+.apresentation-section>div>p>span {
+    color: var(--primary-color);
+    font-size: 4rem;
+}
+
+.right-a {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.right-a>img {
+    width: 19rem;
+}
+
+.icons-container {
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    left: -16rem;
+    top: 2.5rem;
+}
+
+
