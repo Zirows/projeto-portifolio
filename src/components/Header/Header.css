@@ -3,6 +3,7 @@ header {
     position: fixed;
     width: 100vw;
     background-color: rgb(34, 34, 34);
+    z-index: 999999;
 }
 
 .header-container {

@@ -1,0 +1,121 @@
+.skills-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-control>img {
+    width: 2.2rem;
+    height: 2.2rem;
+    margin: 20px;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.title-control>img:hover {
+    transform: scale(1.2);
+}
+
+.skills-title {
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+.skills-title>span {
+    -webkit-text-stroke-width: 2px;
+}
+
+.skills-container>:nth-child(2) {
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: rgb(209, 209, 209);
+    margin-top: 10px;
+}
+
+.hover-mouse-p {
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    color: rgb(209, 209, 209);
+    margin-top: -20px;
+}
+
+.skills {
+    margin-top: 80px;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.skills>div>div {
+    padding: 40px;
+    width: 600px;
+    border-radius: 15px;
+    border: 2px solid rgb(56, 56, 255);
+    margin: 10px;
+    
+}
+
+.skills>:nth-child(1), .skills>:nth-child(2) {
+    background-color: rgba(37, 37, 37, 0.86);
+    border-radius: 20px;
+}
+
+.skill-icon {
+    width: 80px;
+    height: 80px;
+    padding: 30px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+aside {
+    width: 290px;
+}
+
+aside>:nth-child(1) {
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid rgb(56, 56, 255);
+    height: 355px;
+    margin: 10px;
+}
+
+aside>div>h2 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 1.9rem;
+    color: var(--white-color);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.603);
+}
+
+aside>div>p {
+    font-size: 1.3rem;
+    color: var(--white-color);
+    letter-spacing: 1px;
+    font-family: var(--font-text);
+}
+
+.skill-icon:hover {
+    transform: translateY(-10px) scale(1.1);
+}
+
+
+
+@keyframes slide-right {
+    from {
+        transform: translateX(-200px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}

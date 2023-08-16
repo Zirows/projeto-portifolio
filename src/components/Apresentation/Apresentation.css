@@ -7,12 +7,16 @@
 
 .apresentation-section>div>:nth-child(2){
     font-family: var(--font-title);
-    margin-top: 15px;
-    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-size: 6rem;
+    line-height: 5rem;
+    margin-left: 3px;
 }
 
 .apresentation-section>div>:nth-child(1) {
-    letter-spacing: 2px;
+    color: rgb(228, 228, 228);
+    font-size: 2rem;
+    margin-left: 7px;
 }
 
 .apresentation-section>div>p {
@@ -20,27 +24,77 @@
     color: var(--white-color);
 }
 
-.apresentation-section>div>p>span {
-    color: var(--primary-color);
-    font-size: 4rem;
+.text-content {
+    display: inline-block;
 }
 
-.right-a {
+
+.apresentation-section>div>:nth-child(3)>p {
+    font-family: var(--font-title);
+    text-transform: uppercase;
+    color: transparent;
+    font-size: 10rem;
+    line-height: 8rem;
+    border-right: 8px solid;
+    margin-right: 10px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
     position: relative;
-    display: flex;
-    justify-content: flex-start;
+    animation: 
+        typing 1.5s steps(9),
+        cursor 0.6s step-end infinite alternate;
 }
 
-.right-a>img {
-    width: 19rem;
+.apresentation-container {
+    position: relative;
 }
 
 .icons-container {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
     position: absolute;
-    left: -16rem;
-    top: 2.5rem;
+    right: 8rem;
+    top: 1.5rem;
 }
 
+.icons-container>:nth-child(1)>img{
+    cursor: pointer;
+    animation: slide-down 1.4s ease;
+}
+.icons-container>:nth-child(2)>img{
+    cursor: pointer;
+    animation: slide-down 1.7s ease;
+}
+.icons-container>:nth-child(3)>img{
+    cursor: pointer;
+    animation: slide-down 2s ease;
+}
+
+.icons-container>a>img {
+    transition: transform 0.8s;
+}
+
+.icons-container>a>img:hover {
+    transform: translateY(-15px);
+}
+
+
+@keyframes cursor {
+    50% { border-color: var(--primary-color) };
+}
+
+@keyframes typing {
+    from { width: 0 };
+}
+
+@keyframes slide-down {
+    from { 
+        transform: translateY(-200px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
 
