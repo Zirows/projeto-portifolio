@@ -45,7 +45,7 @@ export const skillsData = [
             {
                 icon: Jest,
                 title: "Jest",
-                description: "Jest é um framework ultilizado para fazer testes unitários em partes da aplicação, é importanta para saber que caso haja alguma alteração na aplicação não comprometa outra parte dela, tenho 6 meses de experiencia ultilizando o jest.",
+                description: "Jest é um framework ultilizado para fazer testes unitários em partes da aplicação, é importante para saber que, caso haja alguma alteração na aplicação não comprometa outra parte dela, tenho 6 meses de experiencia ultilizando o jest.",
             },
             {
                 icon: Redux,

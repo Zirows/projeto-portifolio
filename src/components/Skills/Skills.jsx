@@ -14,6 +14,7 @@ function Skills() {
   const skLength = skillsData.length;
   const [hoverSelect, setHoverSelect] = useState(0)
 
+
   const leftArrowMove = () => {
     selected === 0
         ? setSelected(skLength -1)
@@ -28,7 +29,11 @@ function Skills() {
 
   const hoverSelected = (i) => {
     setHoverSelect(i);
+  }
 
+  const hoverDisable = (i) => {
+    setHoverSelect(i)
+    
   }
 
   return (
@@ -43,46 +48,56 @@ function Skills() {
           transition={{transition}}>{ skillsData[selected].title }<span className='stroke-text'>end</span></motion.h1>
           <img src={ RightArrow } onClick={rightArrowMove} alt="" />
         </div>
-        <p>Tecnologias em que tenho conhecimento</p>
+        <div className='section-select'>
+          <div>
+            <div className={ selected === 0 ? 'section-selected' : 'section-no-selected' }></div>
+            <div className={ selected === 1 ? 'section-selected' : 'section-no-selected' }></div>
+          </div>
+          <p>Tecnologias em que tenho conhecimento</p>
+        </div>
         <div className='skills'>
           <div>
             <div>
-        <p className='hover-mouse-p'>Passe o mouse por cima 🖱️</p>
-            <motion.div key={selected}
-            initial={{opacity: 0, x: -100}}
-            animate={{opacity: 1, x: 0}}
-            exit={{opacity: 0, x: -100}}
-            transition={{transition}}>
-              {
-                skillsData[selected].skills.map((icon, i) => (
-                  <img  className='skill-icon' onMouseOver={() => hoverSelected(i)} onMouseLeave={() => setHoverSelect(0)} key={i} src={icon.icon} alt="" />
-                  ))
-              }
-            </motion.div>
+              <div>
+                <p className='hover-mouse-p'>Passe o mouse por cima 🖱️</p>
+                <motion.div key={selected}
+                initial={{opacity: 0, x: -100}}
+                animate={{opacity: 1, x: 0}}
+                exit={{opacity: 0, x: -100}}
+                transition={{transition}}>
+                  {
+                    skillsData[selected].skills.map((icon, i) => (
+                      <img  className='skill-icon' onMouseOver={() => hoverSelected(i)} onMouseLeave={() => hoverDisable(i)} key={i} src={icon.icon} alt="" />
+                      ))
+                    }
+                </motion.div>
+              </div>
             </div>
           </div>
           <aside>
             <div>
-              <motion.h2
-              key={selected}
-              initial={{opacity: 0, x: 100}}
-              animate={{opacity: 1, x: 0}}
-              exit={{opacity: 0, x: -100}}
-              transition={{transition}}>
-                {
-                  skillsData[selected].skills[hoverSelect].title
-                }
-              </motion.h2>
-              <motion.p
-              key={selected +1}
-              initial={{opacity: 0, x: 100}}
-              animate={{opacity: 1, x: 0}}
-              exit={{opacity: 0, x: -100}}
-              transition={{transition}}>
-                {
-                  skillsData[selected].skills[hoverSelect].description
-                }
-              </motion.p>
+              <div>
+                <motion.h2
+                key={selected}
+                initial={{opacity: 0, x: 100}}
+                animate={{opacity: 1, x: 0}}
+                exit={{opacity: 0, x: -100}}
+                transition={{transition}}>
+                  {
+                    skillsData[selected].skills[hoverSelect].title
+                  }
+                </motion.h2>
+                <motion.p
+                key={selected +1}
+                initial={{opacity: 0, x: 100}}
+                animate={{opacity: 1, x: 0}}
+                exit={{opacity: 0, x: -100}}
+                transition={{transition}}>
+                  {
+                    skillsData[selected].skills[hoverSelect].description
+                  }
+                </motion.p>
+              </div>
             </div>
           </aside>
         </div>
