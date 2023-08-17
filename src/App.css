@@ -2,10 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&family=Montserrat:ital,wght@0,400;0,700;1,700&display=swap');
 
 :root {
-  --secondary-color: #ff00ff;
   --primary-color: #6C63FF;
   --white-color: #ffffff;
-  --gap: 3rem;
   --fonte-titulo: 'Montserrat', sans-serif;
   --fonte-texto: 'Open Sans', sans-serif;
   --font-texto2: 'Amatic SC', cursive;
@@ -20,6 +18,10 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
+}
+
+::-webkit-scrollbar{
+  display: none;
 }
 
 .main-container {

@@ -4,6 +4,7 @@ import './Projects.css'
 
 import ProjectGym from '../../assets/project-gym.png';
 
+
 function Projects() {
   return (
     <section className='projects-container main-container'>

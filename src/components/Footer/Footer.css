@@ -1,0 +1,15 @@
+footer {
+    border-top: 2px solid var(--primary-color);
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+footer>p {
+    color: var(--white-color);
+    font-family: var(--font-texto);
+    font-size: 1.3rem;
+}
+
