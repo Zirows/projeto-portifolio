@@ -37,7 +37,7 @@ function Skills() {
   }
 
   return (
-    <section className='skills-container  main-container'>
+    <section className='skills-container  main-container' id='skills'>
         <div className='title-control'>
           <img src={ LeftArrow } onClick={leftArrowMove} alt="" />
           <motion.h1 className='skills-title'

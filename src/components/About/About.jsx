@@ -16,7 +16,7 @@ function About() {
   }
 
   return (
-    <section className='about-container main-container' onMouseEnter={animateScroll}>
+    <section className='about-container main-container' onMouseEnter={animateScroll} id="about">
         <h2>About <span>Me</span></h2>
         <div className="line-container">
             <div className={ animate === true ? 'about-l' : 'hidden'}>

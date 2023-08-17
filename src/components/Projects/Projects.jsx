@@ -7,7 +7,7 @@ import ProjectGym from '../../assets/project-gym.png';
 
 function Projects() {
   return (
-    <section className='projects-container main-container'>
+    <section className='projects-container main-container' id='projects'>
         <div>
             <h2 className='stroke-text'><span>Pr</span>ojects</h2>
             <p>Estes são alguns de meus projetos</p>
