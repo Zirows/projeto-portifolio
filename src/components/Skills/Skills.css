@@ -114,6 +114,11 @@ aside>div>div>p {
     font-family: var(--font-text);
 }
 
+aside>div>div>:nth-child(3) {
+    color: var(--primary-color);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.432);
+}
+
 .skill-icon:hover {
     transform: translateY(-10px) scale(1.1);
 }

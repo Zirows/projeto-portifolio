@@ -86,13 +86,23 @@ function Skills() {
                   }
                 </motion.h2>
                 <motion.p
-                key={selected +1}
+                key={selected +2}
                 initial={{opacity: 0, x: 100}}
                 animate={{opacity: 1, x: 0}}
                 exit={{opacity: 0, x: -100}}
                 transition={{transition}}>
                   {
                     skillsData[selected].skills[hoverSelect].description
+                  }
+                </motion.p>
+                <motion.p
+                 key={selected +1}
+                 initial={{opacity: 0, x: 100}}
+                 animate={{opacity: 1, x: 0}}
+                 exit={{opacity: 0, x: -100}}
+                 transition={{transition}}>
+                  {
+                    skillsData[selected].skills[hoverSelect].expirience
                   }
                 </motion.p>
               </div>

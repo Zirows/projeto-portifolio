@@ -19,38 +19,45 @@ export const skillsData = [
             {
                 icon: ReactJS,
                 title: "React.Js",
-                description: "React é uma das principais técnologias que eu tenho entendimento, inclusive esse portifólio foi feito usando react, possuo 1 ano de experiencia em projetos ultilizando ele.",
+                description: "React é uma das principais técnologias que eu tenho entendimento, inclusive esse portifólio foi feito usando react.",
+                expirience: "1 ano de experiencia"
             },
             {
                 icon: JavaScript,
                 title: "JavaScript",
-                description: "Está é a pricipal linguagem de programção que ultilizo, todas as funcionalidades deste portfólio, foram feitas usando isso. Possuo 1 ano de experiencia em projetos com js.",
+                description: "Está é a pricipal linguagem de programção que ultilizo, todas as funcionalidades deste portfólio, foram feitas usando isso.",
+                expirience: "1 ano de experiencia"
 
             },
             {
                 icon: HTML,
                 title: "HTML5",
-                description: "HTML é a uma marcação baseada em tags, é uma das principais funcionalidades quando se fala de sites, tenho 2 anos de expericencias com projetos usando ela.",
+                description: "HTML é a uma marcação baseada em tags, é uma das principais funcionalidades quando se fala de sites.",
+                expirience: "2 ano de experiencia"
             },
             {
                 icon: CSS,
                 title: "CSS3",
-                description: "CSS é a estilização da página, é o que deixa ela bonita, existem bibliotecas que fazem isso, porem prefiro a versatilidade de usar diretamente a ferramenta, tenho 2 anos de experiencia em projetos com o css.",
+                description: "CSS é a estilização da página, é o que deixa ela bonita, existem bibliotecas que fazem isso, porem prefiro a versatilidade de usar diretamente a ferramenta.",
+                expirience: "2 ano de experiencia"
             },
             {
                 icon: Cypress,
                 title: "Cypress",
-                description: "É uma ferramenta de testes para desenvolvedores, além de saber desenvolver é muito importante saber testas e capitar as falhas da aplicação, tenho alguns projetos que foram ultilizado essa ferramenta.",
+                description: "É uma ferramenta de testes para desenvolvedores, além de saber desenvolver é muito importante saber testas e capitar as falhas da aplicação.",
+                expirience: "Alguns projetos de experiencia"
             },
             {
                 icon: Jest,
                 title: "Jest",
-                description: "Jest é um framework ultilizado para fazer testes unitários em partes da aplicação, é importante para saber que, caso haja alguma alteração na aplicação não comprometa outra parte dela, tenho 6 meses de experiencia ultilizando o jest.",
+                description: "Jest é um framework ultilizado para fazer testes unitários em partes da aplicação.",
+                expirience: "6 meses de experiencia"
             },
             {
                 icon: Redux,
                 title: "Redux",
-                description: "Redux é uma biblioteca de javascript ultilizada para fazer o controle de estado de uma aplicação, tenho alguns projetos ultilizando está tecnologia.",
+                description: "Redux é uma biblioteca de javascript ultilizada para fazer o controle de estado de uma aplicação.",
+                expirience: "Alguns projetos de experiencia"
             }
         ]
 
@@ -61,32 +68,38 @@ export const skillsData = [
             {
                 icon: Node,
                 title: "Node.Js",
-                description: "O Node é o que permite que o javascript funcione fora de navegador web, permitindo assim usar no backend, possuo 6 meses de experiencia com essa tecnologia",
+                description: "O Node é o que permite que o javascript funcione fora de navegador web, permitindo assim usar no backend.",
+                expirience: "6 meses de experiencia"
             },
             {
                 icon: SQL,
                 title: "MySQL",
-                description: "MySQL é o banco de dados que revolvi trazer aqui dentre tantas opções, pois é o que eu mais ultilizei e estudei, possuo 1 ano de experiencias manipulando tabelas e databases",
+                description: "MySQL é o banco de dados que revolvi trazer aqui dentre tantas opções, pois é o que eu mais ultilizei e estudei",
+                expirience: "1 ano de experiencia"
             },
             {
                 icon: Docker,
                 title: "Docker",
-                description: "Docker é uma ferramenta para desenvolvedores, ultilizando containers e imagems para facilitar a ultilização de softwares ou bibliotecas, tenho 6 meses de experiencia ultilizando docker em projetos",
+                description: "Docker é uma ferramenta para desenvolvedores, ultilizando containers e imagems para facilitar a ultilização de softwares ou bibliotecas.",
+                expirience: "6 meses de experiencia"
             },
             {
                 icon: Php,
                 title: "PHP",
-                description: "PHP está entre as linguagems mais usadas para backend, apesar se não ser minha principal possuo algumas experiencias ultilizando ela.",
+                description: "PHP está entre as linguagems mais usadas para backend, apesar se não ser minha principal ja trabalhei algumas vezes com ela.",
+                expirience: "Possuo algumas experiencias"
             },
             {
                 icon: Express,
                 title: "Express",
-                description: "Express é um framework para node que facilita a construção de API's e middlewares, tenho 6 meses de experiencia usando express em alguns projetos.",
+                description: "Express é um framework para node que facilita a construção de API's e middlewares.",
+                expirience: "6 meses de experiencia"
             },
             {
                 icon: Mocha,
                 title: "Mocha",
-                description: "Mocha é uma estrutura des testes automatizados, ultilizado no node para desenvolver testes unitarios, integração e end-to-end, tenho alguns projetos ultilizando mocha",
+                description: "Mocha é uma estrutura des testes automatizados, ultilizado no node para desenvolver testes unitarios, integração e end-to-end.",
+                expirience: "Alguns projetos de experiencia"
             },
         ]
     }

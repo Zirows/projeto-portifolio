@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link } from 'react-scroll';
 import './Projects.css'
 
-import ProjectGym from '../../assets/project-gym.png';
+import ProjectGym from '../../assets/Project-gym.png';
+import ProjectArq from '../../assets/project-arq.png'
 
 
 function Projects() {
@@ -19,9 +19,9 @@ function Projects() {
                 <p>Projeto desenvolvido com react</p>
             </div>
             <div>
-                <Link><img src={ ProjectGym } alt="" /></Link>
-                <h3>Gym Project</h3>
-                <p>Projeto desenvolvido com react</p>
+                <a href='https://gabriel-marchese.github.io/site-arquitetura/' rel='noreferrer' target='_blank'><img src={ ProjectArq } alt="" /></a>
+                <h3>Site Arquitetura</h3>
+                <p>Projeto desenvolvido com html e css</p>
             </div>
         </div>
     </section>
