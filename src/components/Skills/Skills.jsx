@@ -58,7 +58,6 @@ function Skills() {
         <div className='skills'>
           <div>
             <div>
-              <div>
                 <p className='hover-mouse-p'>Passe o mouse por cima 🖱️</p>
                 <motion.div key={selected}
                 initial={{opacity: 0, x: -100}}
@@ -71,7 +70,6 @@ function Skills() {
                       ))
                     }
                 </motion.div>
-              </div>
             </div>
           </div>
           <aside>

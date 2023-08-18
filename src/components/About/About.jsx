@@ -9,17 +9,19 @@ import Curriculo from '../../assets/curriculo.pdf';
 
 function About() {
 
-  const [animate, setAnimate] = useState(false);
+  const [animate, setAnimate] = useState(true);
+
+  const mobile = window.innerWidth<=768 ? false : true;
 
   const animateScroll = () => {
-    setAnimate(true)
+    setAnimate(false)
   }
 
   return (
     <section className='about-container main-container' onMouseEnter={animateScroll} id="about">
         <h2>About <span>Me</span></h2>
         <div className="line-container">
-            <div className={ animate === true ? 'about-l' : 'hidden'}>
+            <div className={ (animate === true && mobile === true) ? 'hidden' : 'about-l'}>
                 <div className='text-item'>
                     <p>Analise no front-end, identificando possíveis erros ou falhas de demandas feita por devs, documentação de todos os erros e resoluções encontradas, atuando com o jira para melhor organização.</p>
                 </div>
@@ -38,13 +40,13 @@ function About() {
                     <span>Trybe</span>
                 </div>
             </div>
-            <div className={ animate === true ? 'about-m' : 'hidden'}>
+            <div className={ (animate === true && mobile === true) ? 'hidden' : 'about-m' }>
                 <div className='pointer1'></div>
                 <div className='pointer2'></div>
                 <div className='pointer1'></div>
                 <div className='pointer2'></div>
             </div>
-            <div className={ animate === true ? 'about-r' : 'hidden'}>
+            <div className={ (animate === true && mobile === true) ? 'hidden' : 'about-r' }>
                 <div className='title-item'>
                     <h3>2021</h3>
                     <p>Estágiario em QA</p>

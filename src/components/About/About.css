@@ -1,6 +1,5 @@
 .about-container {
     margin-top: 6rem;
-    padding: 0 10rem;
     height: 1300px;
     display: flex;
     flex-direction: column;
@@ -233,6 +232,102 @@
 
     .about-l>div {
         margin-right: 0px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .about-container {
+        margin-top: 0;
+        height: 1200px;
+    }
+
+    .main-container {
+        width: 100vw;
+    }
+
+    .about-container>h2 {
+        font-size: 3rem;
+        margin-bottom: 30px;
+    }
+
+    .line-container {
+        width: 100vw;
+    }
+
+    .about-l {
+        width: 43%;
+    }
+
+    .about-l>div {
+        width: fit-content;
+    }
+
+    .about-r{
+        width: 43%;
+    }
+
+    .about-r>div {
+        width: fit-content;
+    }
+    
+    .title-item>h3 {
+        font-size: 1.1rem;
+    }
+    
+    .title-item>p {
+        font-size: 1rem;
+    }
+    
+    .title-item>span {
+        font-size: 1.5rem;
+    }
+
+    .text-item>p {
+        font-size: 15px;
+    }
+
+    .about-m>:nth-child(1) {
+        top: 25px;
+        right: -6.5px;
+    }
+
+    .about-m>:nth-child(2) {
+        top: 260px;
+        right: -6.5px;
+    }
+
+    .about-m>:nth-child(3) {
+        top: 490px;
+        right: -6.5px;
+    }
+
+    .about-m>:nth-child(4) {
+        top: 730px;
+        right: -6.5px;
+    }
+
+    .icon-container {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    .icon-container>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .icon-container>div>a>img{
+        margin-top: 10rem;
+        width: 60px;
+        cursor: pointer;
+    }
+
+    
+    .icon-container>div>p {
+        font-size: 1.5rem;
     }
 
 }

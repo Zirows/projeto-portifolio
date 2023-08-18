@@ -1,6 +1,5 @@
 .projects-container {
     margin-top: 10rem;
-    padding: 0 10rem;
 }
 
 .projects-container>div>h2 {
@@ -64,4 +63,35 @@
 
 .project-container>div>a:hover {
     transform: translateY(-5px) scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+    .projects-container {
+        margin-top: 4rem;
+    }
+
+    .projects-container>:nth-child(1){
+        margin-bottom: 3rem;
+    }
+
+    .projects-container>div>h2 {
+        -webkit-text-stroke-width: 2px;
+        font-size: 4rem;
+    }
+
+    .projects-container>:nth-child(1)>p {
+        font-size: 1.7rem;
+        letter-spacing: 1px;
+    }
+    .project-container {
+        flex-direction: column;
+    }
+
+    .project-container>div>a>img {
+        width: 300px;
+    }
+
+    .project-container>div {
+        margin-bottom: 3rem;
+    }
 }
