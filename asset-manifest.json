@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/projeto-portifolio/static/css/main.45656f00.css",
-    "main.js": "/projeto-portifolio/static/js/main.12676367.js",
+    "main.js": "/projeto-portifolio/static/js/main.13981a96.js",
     "static/js/787.be55e6d0.chunk.js": "/projeto-portifolio/static/js/787.be55e6d0.chunk.js",
     "static/media/curriculo.pdf": "/projeto-portifolio/static/media/curriculo.e8ce43f9f21126066670.pdf",
     "static/media/JavangoJango.png": "/projeto-portifolio/static/media/JavangoJango.a94cb9470cadd86e4496.png",
@@ -26,11 +26,11 @@
     "static/media/icon-css3.svg": "/projeto-portifolio/static/media/icon-css3.378c185bd0acf261aca6e4de072a9e57.svg",
     "static/media/icon-html5.svg": "/projeto-portifolio/static/media/icon-html5.e56f2b3f7614577ddd274ec70c0c8497.svg",
     "main.45656f00.css.map": "/projeto-portifolio/static/css/main.45656f00.css.map",
-    "main.12676367.js.map": "/projeto-portifolio/static/js/main.12676367.js.map",
+    "main.13981a96.js.map": "/projeto-portifolio/static/js/main.13981a96.js.map",
     "787.be55e6d0.chunk.js.map": "/projeto-portifolio/static/js/787.be55e6d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.45656f00.css",
-    "static/js/main.12676367.js"
+    "static/js/main.13981a96.js"
   ]
 }
