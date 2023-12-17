@@ -23,7 +23,7 @@ function About() {
         <div className="line-container">
             <div className={ (animate === true && mobile === true) ? 'hidden' : 'about-l'}>
                 <div className='text-item'>
-                    <p>Olá, meu nome é Gabriel, tenho 23 anos sou formado em engenharia mecatrônica, mas durante a faculdade conhecia programação e decidi que gostaria de trabalhar com isso pois é algo que gosto muito.</p>
+                    <p>Olá, meu nome é Gabriel, tenho 23 anos sou formado em engenharia mecatrônica, mas durante a faculdade conhecia programação e decidi que gostaria de trabalhar com isso pois é algo que amo.</p>
                 </div>
                 <div className='title-item'>
                     <h3>2022</h3>

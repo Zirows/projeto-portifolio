@@ -141,7 +141,7 @@
 .about-m>:nth-child(1) {
     position: absolute;
     top: 30px;
-    right: -6px;
+    right: -7px;
 }
 
 .about-m>:nth-child(2) {
@@ -153,13 +153,13 @@
 .about-m>:nth-child(3) {
     position: absolute;
     top: 510px;
-    right: -6px;
+    right: -7px;
 }
 
 .about-m>:nth-child(4) {
     position: absolute;
     top: 750px;
-    right: -6.5px;
+    right: -6.8px;
 }
 
 .hidden {
@@ -289,22 +289,22 @@
 
     .about-m>:nth-child(1) {
         top: 25px;
-        right: -6.5px;
+        right: -7.5px;
     }
 
     .about-m>:nth-child(2) {
         top: 260px;
-        right: -6.5px;
+        right: -7.5px;
     }
 
     .about-m>:nth-child(3) {
         top: 490px;
-        right: -6.5px;
+        right: -7.5px;
     }
 
     .about-m>:nth-child(4) {
         top: 730px;
-        right: -6.5px;
+        right: -7.5px;
     }
 
     .icon-container {
