@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/projeto-portifolio/static/css/main.b2aa88cf.css",
-    "main.js": "/projeto-portifolio/static/js/main.732bfbba.js",
+    "main.css": "/projeto-portifolio/static/css/main.8da4dc30.css",
+    "main.js": "/projeto-portifolio/static/js/main.eaffbe9d.js",
     "static/js/787.be55e6d0.chunk.js": "/projeto-portifolio/static/js/787.be55e6d0.chunk.js",
+    "static/media/curriculo.pdf": "/projeto-portifolio/static/media/curriculo.e8ce43f9f21126066670.pdf",
+    "static/media/JavangoJango.png": "/projeto-portifolio/static/media/JavangoJango.a94cb9470cadd86e4496.png",
     "static/media/Project-gym.png": "/projeto-portifolio/static/media/Project-gym.a5251790cda28e491270.png",
-    "static/media/curriculo.pdf": "/projeto-portifolio/static/media/curriculo.104b774b6a3d8720392b.pdf",
     "static/media/project-arq.png": "/projeto-portifolio/static/media/project-arq.7f0728c2f4f0459fca85.png",
+    "static/media/TrybeFutebolClub.png": "/projeto-portifolio/static/media/TrybeFutebolClub.80068cb2cf41889d1714.png",
     "static/media/icon-mocha.svg": "/projeto-portifolio/static/media/icon-mocha.09bec610da0d77e4a2a642017566dd79.svg",
     "static/media/icon-mysql.svg": "/projeto-portifolio/static/media/icon-mysql.7cd824dcfc2ac329c0be4e701eb7657f.svg",
     "static/media/icon-react.svg": "/projeto-portifolio/static/media/icon-react.9342c38419495e33d129b6e97166cd00.svg",
@@ -23,12 +25,12 @@
     "static/media/icon-menu.svg": "/projeto-portifolio/static/media/icon-menu.ead9d7ce993460006bd3079399b1c603.svg",
     "static/media/icon-css3.svg": "/projeto-portifolio/static/media/icon-css3.378c185bd0acf261aca6e4de072a9e57.svg",
     "static/media/icon-html5.svg": "/projeto-portifolio/static/media/icon-html5.e56f2b3f7614577ddd274ec70c0c8497.svg",
-    "main.b2aa88cf.css.map": "/projeto-portifolio/static/css/main.b2aa88cf.css.map",
-    "main.732bfbba.js.map": "/projeto-portifolio/static/js/main.732bfbba.js.map",
+    "main.8da4dc30.css.map": "/projeto-portifolio/static/css/main.8da4dc30.css.map",
+    "main.eaffbe9d.js.map": "/projeto-portifolio/static/js/main.eaffbe9d.js.map",
     "787.be55e6d0.chunk.js.map": "/projeto-portifolio/static/js/787.be55e6d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2aa88cf.css",
-    "static/js/main.732bfbba.js"
+    "static/css/main.8da4dc30.css",
+    "static/js/main.eaffbe9d.js"
   ]
 }
