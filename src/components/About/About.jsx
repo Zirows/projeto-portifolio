@@ -50,7 +50,7 @@ function About() {
                 <div className='title-item'>
                     <h3>2000</h3>
                     <p>Gabriel Marchese</p>
-                    <span>Desenvolvedor FullStack</span>
+                    <span>Desenvolvedor Full-Stack</span>
                 </div>
                 <div className='text-item'>
                     <p>Em 2022 me formei em Engenharia Mecatrônica, porém durante a faculdade descobri a programação e foi ae que resolvi que iria seguir isso como carreira.</p>
