@@ -23,7 +23,7 @@ function About() {
         <div className="line-container">
             <div className={ (animate === true && mobile === true) ? 'hidden' : 'about-l'}>
                 <div className='text-item'>
-                    <p>Analise no front-end, identificando possíveis erros ou falhas de demandas feita por devs, documentação de todos os erros e resoluções encontradas, atuando com o jira para melhor organização.</p>
+                    <p>Olá, meu nome é Gabriel, tenho 23 anos sou formado em engenharia mecatrônica, mas durante a faculdade conhecia programação e decidi que gostaria de trabalhar com isso pois é algo que gosto muito.</p>
                 </div>
                 <div className='title-item'>
                     <h3>2022</h3>
@@ -48,9 +48,9 @@ function About() {
             </div>
             <div className={ (animate === true && mobile === true) ? 'hidden' : 'about-r' }>
                 <div className='title-item'>
-                    <h3>2021</h3>
-                    <p>Estágiario em QA</p>
-                    <span>Receiv</span>
+                    <h3>2000</h3>
+                    <p>Gabriel Marchese</p>
+                    <span>Desenvolvedor FullStack</span>
                 </div>
                 <div className='text-item'>
                     <p>Em 2022 me formei em Engenharia Mecatrônica, porém durante a faculdade descobri a programação e foi ae que resolvi que iria seguir isso como carreira.</p>
@@ -61,7 +61,7 @@ function About() {
                     <span>Trybe</span>
                 </div>
                 <div className='text-item'>
-                    <p>Após formado em front-end, começei back-end, que estou cursando atualmente, até o final de 2023 estarei formado em back-end e com conhecimento necessario para desenvolver uma aplicação inteira sozinho.</p>
+                    <p>Me formei em backend pela Trybe no final de 2023, usando como principais tecnologias de desenvolvimento o Node.js, TypeScript e o Mysql. Assim como conhecimento sobre testes unitários e de integração com Mocha e Chai.</p>
                 </div>
             </div>
         </div>

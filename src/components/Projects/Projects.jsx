@@ -2,7 +2,9 @@ import React from 'react';
 import './Projects.css'
 
 import ProjectGym from '../../assets/Project-gym.png';
-import ProjectArq from '../../assets/project-arq.png'
+import ProjectArq from '../../assets/project-arq.png';
+import ProjectJango from '../../assets/JavangoJango.png';
+import ProjectFut from '../../assets/TrybeFutebolClub.png';
 
 
 function Projects() {
@@ -14,14 +16,26 @@ function Projects() {
         </div>
         <div className='project-container'>
             <div>
-                <a href='https://gymproject-8h1.pages.dev/' rel='noreferrer' target='_blank'><img src={ ProjectGym } alt="" /></a>
-                <h3>Gym Project</h3>
-                <p>Projeto desenvolvido com react</p>
+                <a href='https://github.com/gabriel-marchese/javango-jango' rel='noreferrer' target='_blank'><img src={ ProjectJango } alt="" /></a>
+                <h3>FullStack</h3>
+                <p>Javango Jango: Desenvolvido com React, Node e MySql</p>
             </div>
             <div>
-                <a href='https://gabriel-marchese.github.io/site-arquitetura/' rel='noreferrer' target='_blank'><img src={ ProjectArq } alt="" /></a>
-                <h3>Site Arquitetura</h3>
-                <p>Projeto desenvolvido com html e css</p>
+                <a href='https://github.com/gabriel-marchese/gym-project' rel='noreferrer' target='_blank'><img src={ ProjectGym } alt="" /></a>
+                <h3>Frontend</h3>
+                <p>Gym Project: Desenvolvido com React</p>
+            </div>
+        </div>
+        <div className='project-container'>
+        <div>
+                <a href='https://github.com/gabriel-marchese/table-futebol-project' rel='noreferrer' target='_blank'><img src={ ProjectFut } alt="" /></a>
+                <h3>Backend</h3>
+                <p>Futebol Club: Desenvolvido com React, Node e MySql</p>
+            </div>
+            <div>
+                <a href='https://github.com/gabriel-marchese/site-arquitetura' rel='noreferrer' target='_blank'><img src={ ProjectArq } alt="" /></a>
+                <h3>Frontend</h3>
+                <p>Site Arquitetura: Desenvolvido com html e css</p>
             </div>
         </div>
     </section>

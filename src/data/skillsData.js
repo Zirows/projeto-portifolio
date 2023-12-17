@@ -11,6 +11,7 @@ import Docker from "../assets/icon-docker.svg";
 import Php from "../assets/icon-php.svg";
 import Express from "../assets/icon-express.svg";
 import Mocha from "../assets/icon-mocha.svg";
+import TypeScript from '../assets/icon-type.png'
 
 export const skillsData = [
     {
@@ -81,6 +82,12 @@ export const skillsData = [
                 icon: Docker,
                 title: "Docker",
                 description: "Docker é uma ferramenta para desenvolvedores, ultilizando containers e imagems para facilitar a ultilização de softwares ou bibliotecas.",
+                expirience: "6 meses de experiencia"
+            },
+            {
+                icon: TypeScript,
+                title: "TypeScript",
+                description: "TypeScript é uma evolução do JavaScript, ela inclui tipagem dentro do javascript, o que server para que a gente consiga controlar melhor os tipos de valores das variaveis.",
                 expirience: "6 meses de experiencia"
             },
             {
